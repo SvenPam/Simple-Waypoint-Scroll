@@ -62,7 +62,7 @@ Not everone likes pages to scroll for them, so this is a simple soultion to that
 Use
 ---------------------
 
-You can find a basic demo -- without user interaction -- on this <a href="http://jsfiddle.net/ZRp5y/">JS fiddle</a>.
+You can find a basic demo -- without user interaction -- on this <a href="http://jsfiddle.net/ZRp5y/1/">JS fiddle</a>.
 
 A full demo can be found in `Demo.html` in this repository.
 
