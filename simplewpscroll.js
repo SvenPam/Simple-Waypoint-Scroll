@@ -1,4 +1,4 @@
-    //If set to false, mouse wheel listener is removed.
+         //If set to false, mouse wheel listener is removed.
     var scroll = true;
     //Init waypoints.
     var prevWaypnt = undefined;
@@ -64,8 +64,7 @@
         $('#power-to-the-user').fadeOut()
         document.onmousewheel = false;
     }
-    
-    
+
     //Extend jQuery.
 $.fn.exists = function () {
     return this.length !== 0;
