@@ -63,3 +63,8 @@ Compatibility
 ---------------------
 
 Not tested in legacy browsers. Only tested with jQuery 1.10.2.
+
+Limitations
+---------------------
+
+If a browser full caches the page, the user will naturally be brought back to window position they were last at, this will break the UX. This is because SWPS intializes at the first element.
