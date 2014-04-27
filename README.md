@@ -17,7 +17,7 @@ There are two parts to this SWPS.
 ####Simple
 If you just want a simple scroll between waypoints, specify elements you want as waypoints.
 
-This is done by setting the class of an element to "waypoint", additionally for this to work ensure there are no siblings between elements with the "waypoint class:
+This is done by setting the class of an element to "waypoint", additionally for this to work ensure there are no siblings between elements with the "waypoint" class:
 
 
 
@@ -30,7 +30,7 @@ This is done by setting the class of an element to "waypoint", additionally for 
 </div>
 ```
 
-ID's are not needed, they are noyl used for example.
+ID's are not needed, they are only used for example.
 
 
 #####Offset
@@ -48,7 +48,7 @@ If you want to offset the scroll -- say place a heading halfway in the page -- y
 
 ####User Interaction
 
-The second part is user interation. Add a an element with an ID of "power-to-the-user", and add some form of control. This control must make a call to the removeScroll() function. This will then fade out the div, and remove waypoint scrolling from the page.
+The second part is user interation. Add a an element with an ID of "power-to-the-user", and add some form of control. This control must make a call to the removeScroll() function. This will then fade out the `power-to-user` element, and remove waypoint scrolling from the page.
 
 ```HTML
 <div id="power-to-the-user">
@@ -57,7 +57,7 @@ The second part is user interation. Add a an element with an ID of "power-to-the
 </div>
 ```
 
-Not everone likes pages to scroll for them, so this is a simple soultion to that problem. The removescroll function is not needed idf you don't want that funtionality.
+Not everone likes pages to scroll for them, this is a simple soultion to that problem. The `removeScroll()` function is not needed if you don't want that funtionality.
 
 Use
 ---------------------
@@ -70,6 +70,8 @@ Compatibility
 ---------------------
 
 Not tested in legacy browsers. Only tested with jQuery 1.10.2.
+
+Need to put a fix in to allow Firefox to remove scrolling.
 
 Limitations
 ---------------------
