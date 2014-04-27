@@ -1,4 +1,10 @@
-         //If set to false, mouse wheel listener is removed.
+    //Stephen Pammenter© 2014
+    //http://ste-pam.com
+    //https://github.com/SvenPam/Simple-Waypoint-Scroll
+    
+    //Simple-Waypoint-Scroll
+    
+    //If set to false, mouse wheel listener is removed.
     var scroll = true;
     //Init waypoints.
     var prevWaypnt = undefined;
