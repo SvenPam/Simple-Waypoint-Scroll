@@ -1,0 +1,154 @@
+<html>
+    <head>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<style>
+	body
+	{
+		font-family: sans-serif;
+	}
+	
+	.waypoint
+	{
+		padding: 25px;
+	}
+	#a
+	{
+		background-color: #252525;
+		color: #F3B200;
+	}
+		#b
+	{
+		background-color: #6BA5E7;
+		color: #2572EB;
+	}
+	#c
+	{
+		background-color: #252525;
+		color: #77B900;
+	}
+	#d
+	{
+		background-color: #7BAD18;
+		color: #003E00;
+	}
+	
+	#power-to-the-user
+	{
+		background-color: #CCC;
+	}
+	
+	</style>
+    </head>
+    <body>
+	<div>
+		<div id="a" class="waypoint">
+			<h1>Section A</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae varius mauris. Donec elementum sagittis sodales. Donec laoreet tellus in magna tristique, at dictum lorem pharetra. Vivamus eu tristique massa. Aenean et orci nec diam hendrerit rutrum eget vitae est. Duis lobortis pharetra lacus. Phasellus a aliquam est.</p>
+			<img width="400px" src="http://www.deargrumpycat.com/wp-content/uploads/2013/02/Grumpy-Cat1.jpg">
+			<p>Donec vehicula tellus ut fringilla ornare. Praesent eu risus interdum, hendrerit arcu vel, accumsan magna. Suspendisse felis odio, dignissim vitae lectus sit amet, ultricies dignissim ante. Praesent ornare molestie lacus sit amet dictum. Integer aliquam lobortis tempor. Nam a nisl posuere, dapibus nulla in, euismod sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla vestibulum ante urna, vel mattis purus volutpat at. Cras pulvinar dolor ac pellentesque aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+		</div>
+		<div id="b" class="waypoint">
+		<h1>Section B</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae varius mauris. Donec elementum sagittis sodales. Donec laoreet tellus in magna tristique, at dictum lorem pharetra. Vivamus eu tristique massa. Aenean et orci nec diam hendrerit rutrum eget vitae est. Duis lobortis pharetra lacus. Phasellus a aliquam est.</p>
+			<img width="400px" src="http://www.bloodygoodhorror.com/bgh/files/reviews/caps/vampires-kiss.jpg">
+			<p>Donec vehicula tellus ut fringilla ornare. Praesent eu risus interdum, hendrerit arcu vel, accumsan magna. Suspendisse felis odio, dignissim vitae lectus sit amet, ultricies dignissim ante. Praesent ornare molestie lacus sit amet dictum. Integer aliquam lobortis tempor. Nam a nisl posuere, dapibus nulla in, euismod sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla vestibulum ante urna, vel mattis purus volutpat at. Cras pulvinar dolor ac pellentesque aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+		
+		</div>
+		<div data-offset="100" id="c" class="waypoint">
+		<h1>Section C</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae varius mauris. Donec elementum sagittis sodales. Donec laoreet tellus in magna tristique, at dictum lorem pharetra. Vivamus eu tristique massa. Aenean et orci nec diam hendrerit rutrum eget vitae est. Duis lobortis pharetra lacus. Phasellus a aliquam est.</p>
+			<iframe width="853" height="480" src="http://youtube.com/embed/Iwh5yOMmyFM?rel=0" frameborder="0" allowfullscreen></iframe>
+			<p>Donec vehicula tellus ut fringilla ornare. Praesent eu risus interdum, hendrerit arcu vel, accumsan magna. Suspendisse felis odio, dignissim vitae lectus sit amet, ultricies dignissim ante. Praesent ornare molestie lacus sit amet dictum. Integer aliquam lobortis tempor. Nam a nisl posuere, dapibus nulla in, euismod sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla vestibulum ante urna, vel mattis purus volutpat at. Cras pulvinar dolor ac pellentesque aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+		
+		</div>
+		<div id="d" class="waypoint">
+		<h1>Section D</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae varius mauris. Donec elementum sagittis sodales. Donec laoreet tellus in magna tristique, at dictum lorem pharetra. Vivamus eu tristique massa. Aenean et orci nec diam hendrerit rutrum eget vitae est. Duis lobortis pharetra lacus. Phasellus a aliquam est.</p>
+			<img width="400px" src="http://www.austinchronicle.com/binary/4241/advent3.jpg">
+			<p>Donec vehicula tellus ut fringilla ornare. Praesent eu risus interdum, hendrerit arcu vel, accumsan magna. Suspendisse felis odio, dignissim vitae lectus sit amet, ultricies dignissim ante. Praesent ornare molestie lacus sit amet dictum. Integer aliquam lobortis tempor. Nam a nisl posuere, dapibus nulla in, euismod sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla vestibulum ante urna, vel mattis purus volutpat at. Cras pulvinar dolor ac pellentesque aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+		
+		</div>
+	</div>
+        <div id="power-to-the-user" style=" width: 250px; height: 40px; position: fixed; bottom: 30px; right: 30px;">
+            <div data-role="fieldcontain">
+                <fieldset data-role="controlgroup">
+                    <input type="checkbox" name="checkbox-1" id="checkbox-1" class="custom" onclick="removeScroll();" />
+                    <label for="checkbox" style="background: #E0EAFF;">Let me Scroll</label>
+                </fieldset>
+            </div>
+        </div>
+        <script>
+            //If set to false, mouse wheel listener is removed.
+    var scroll = true;
+    //Init waypoints.
+    var prevWaypnt = undefined;
+    var nxtWaypnt = $('.waypoint:first').next();
+    
+    //Add listeners to mouse wheel event.
+    document.onmousewheel = zoom_handler;
+    if (window.addEventListener) { document.addEventListener('DOMMouseScroll', zoom_handler, false); }
+    document.onmousewheel = zoom_handler;
+    
+    //Here scroll events are determined, and the page scroll is activated.
+    function zoom_handler(event) {
+        //+tive for scroll up, -tive for scroll down.
+        var delta = 0;
+        
+        //Init event.
+        if (!event) event = window.event;
+        //Normalise delta based on browser.
+        if (event.wheelDelta) {
+            // Opera and IE.
+            delta = event.wheelDelta / 60;
+        } else if (event.detail) {
+            // W3C.
+            delta = -event.detail / 2;
+        }
+        //Scroll up.
+        if (delta > 0) {
+            if (prevWaypnt.exists()) {
+                var offset = prevWaypnt.data("offset");
+                if (offset == undefined) {
+                    offset = 0;
+                }
+                $('html,body').animate({
+                    scrollTop: prevWaypnt.offset().top - offset
+                }, 1000);
+                nxtWaypnt = prevWaypnt.next();
+                prevWaypnt = prevWaypnt.prev();
+            }
+        }
+        //Scroll down.
+        else if (delta < 0) {
+
+            if (nxtWaypnt.exists()) {
+                var offset = nxtWaypnt.data("offset")
+                if (offset == undefined) {
+                    offset = 0;
+                }
+
+                $('html,body').animate({
+                    scrollTop: nxtWaypnt.offset().top - offset
+                }, 1000);
+
+                prevWaypnt = nxtWaypnt.prev();
+                nxtWaypnt = nxtWaypnt.next();
+            }
+
+        }
+    }
+
+  //Optional code to remove scrolling.
+    function removeScroll()
+    {
+        $('#power-to-the-user').fadeOut()
+        document.onmousewheel = false;
+    }
+	
+    //Extend jQuery.
+$.fn.exists = function () {
+    return this.length !== 0;
+  }
+        </script>
+    </body>
+</html>
