@@ -70,7 +70,6 @@
         $('#power-to-the-user').fadeOut()
         document.onmousewheel = false;
     }
-
     //Extend jQuery.
 $.fn.exists = function () {
     return this.length !== 0;
