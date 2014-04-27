@@ -59,6 +59,13 @@ The second part is user interation. Add a an element with an ID of "power-to-the
 
 Not everone likes pages to scroll for them, so this is a simple soultion to that problem. The removescroll function is not needed idf you don't want that funtionality.
 
+Use
+---------------------
+
+You can find a basic demo -- without user interaction -- on this <a href="http://jsfiddle.net/ZRp5y/">JS fiddle</a>.
+
+A full demo can be found in `Demo.html` in this repository.
+
 Compatibility
 ---------------------
 
